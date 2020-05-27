@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.box1 {
+			background: white;
+			width: 600px;
+			height: 425px;
+			position: absolute;
+			left: 125px;
+			top:300px;
+			transition: 3s;
+			opacity: 0;
+		}
+		.box2 {
+			background: white;
+			width: 600px;
+			height: 425px;
+			position: absolute;
+			left: 720px;
+			top:300px;
+			transition: 3s;
+			opacity: 0;
+		}
+		.box3 {
+			background: white;
+			width: 460px;
+			height: 350px;
+			position: absolute;
+			left: 1450px;
+			top:510px;
+			transition: 3s;
+			opacity: 0;
+		}
+		.img {
+			height:250px;
+			width:600px;
+		}
+		.img2 {
+			height:150px;
+			width: 450px;
+		}
+		.boxs {
+			height: 100px;
+			width: 100px;
+			border: solid;
+			position: absolute;
+		}
+		.firsBox {
+			background-image: url(dipper.jpg);
+			background-size: 100% 100%;
+		}
+		.bg {
+			background-image: url(bg.jpg);
+		}
+		.wendy {
+			background-image: url(wendy.jpg);
+		}
+		.soos {
+			background-image: url(soos.gif);
+			background-size: 100% 100%;
+		}
+		.bill {
+			background-image: url(bill.gif);
+			background-size: 100% 100%;
+		}
+		.robbie {
+			background-image: url(robbie.jpg);
+			background-size: 100% 100%;
+		}
+		.stanley {
+			background-image: url(stanley.png);
+			background-size: 100% 100%;
+		}
+		.stanford {
+			background-image: url(stanford.jpg);
+			background-size: 100% 100%;
+		}
+		.bg-white {
+			background-color: white;
+		}
+		.candyOne {
+			background-image: url(candyOne.png);
+			background-size: 100% 100%;
+		}
+		.candyTwo {
+			background-image: url(candyTwo.png);
+			background-size: 100% 100%;
+		}
+		.candyThree {
+			background-image: url(candyThree.png);
+			background-size: 100% 100%;
+		}
+		.candyFour {
+			background-image: url(candyFour.png);
+			background-size: 100% 100%;
+		}
+		.money {
+			background-image: url(money.jpg);
+			background-size: 100% 100%;
+		}
+		.mabel {
+			background-image: url(mabel.png);
+			background-size: 100% 100%;
+		}
+		.pig {
+			background-image: url(pig.jpg);
+			background-size: 100% 100%;
+		}
+		.lildip {
+			background-image: url(lildip.jpg);
+			background-size: 100% 100%;
+		}
+		.agent1 {
+			background-image: url(agent1.png);
+			background-size: 100% 100%;
+		}
+		.agent2 {
+			background-image: url(agent2.png);
+			background-size: 100% 100%;
+		}
+		.gideon {
+			background-image: url(gideon.jpg);
+			background-size: 100% 100%;
+		}
+		.land1 {
+			background-image: url(land1.jpg);
+			background-size: 100% 100%;
+		}
+		.land3 {
+			background-image: url(land3.jpg);
+			background-size: 100% 100%;
+		}
+		.land5 {
+			background-image: url(land5.jpg);
+			background-size: 100% 100%;
+		}
+		.police {
+			background-image: url(police.jpg);
+			background-size: 100% 100%;
+		}
+		.music-box {
+			height: 100px;
+			width: 200px;
+			position: absolute;
+			top: 20px;
+			left: 1600px;
+		}
+		.intro {
+			height: 500px;
+			width: 940px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(bg.png);
+			background-size: 100% 100%;
+			position: absolute;
+			transition: 2s;
+			top: 25%;
+			left: 25%;
+		}
+	</style>
+</head>
+<body class="bg">
+	<div class="d-flex">
+     <div class="box1 rounded">
+        <h3> Мейбл спросила: "Дииппеер, а где я купила Пухлю?". Ответь на вопрос! </h3>
+				<img src="q1.gif" class="img">
+        <div class="d-flex">
+          <p style="font-size: 23px;"> В зоомагазине!</p>
+					<button type="button" class="btn btn-primary answer1"  style="margin-left: 276px;"> Выбрать!</button>
+        </div>
+        <div class="d-flex">
+          <p style="font-size: 23px;"> На ярмарке выйграла! </p>
+					<button type="button" class="btn btn-primary answer2"  style="margin-left: 200px;"> Выбрать!</button>
+        </div>
+     </div>
+
+		 <div class="box2 rounded">
+				<h3> Помоги Зусу с бедой! Cколько одноразовых камер было при охоте на Живогрыза?  </h3>
+			 	<img src="q2.gif" class="img">
+				<div class="d-flex">
+					<p style="font-size: 23px;">- 17</p>
+				 <button type="button" class="btn btn-primary answer3"  style="margin-left: 330px;"> Выбрать!</button>
+				</div>
+				<div class="d-flex">
+					<p style="font-size: 23px;">- 15</p>
+				 	<button type="button" class="btn btn-primary answer4"  style="margin-left: 330px;"> Выбрать!</button>
+				</div>
+		 </div>
+
+		 <div class="box3 rounded">
+				<h4> Кто забрал Пухлю из под опеки Стэнли?  </h4>
+			 	<img src="q3.gif" class="img2">
+				<div class="d-flex">
+					<p style="font-size: 23px;">- Засранец Гидеон! </p>
+				 <button type="button" class="btn btn-primary answer5"  style="margin-left: 100px;"> Выбрать!</button>
+				</div>
+				<div class="d-flex">
+					<p style="font-size: 23px;">- Птеродактиль </p>
+				 	<button type="button" class="btn btn-primary answer6"  style="margin-left: 100px;"> Выбрать!</button>
+				</div>
+				<div class="d-flex">
+					<p style="font-size: 23px;">- Медведь </p>
+				 	<button type="button" class="btn btn-primary answer7"  style="margin-left: 100px;"> Выбрать!</button>
+				</div>
+		 </div>
+
+  </div>
+	<div class="intro" style="padding-top: 50px;">
+		<h2 class="text-center" style="color: white;"> Привет, друг! </h2>
+		<h2 style="color: white;"> Ты будешь играть за Диппера из вселенной Gravity Falls! </h2>
+		<h2 style="color: white;"> Твоя цель - во время пути к рыжей девушке Вэнди собрать 4 сладости, иначе она может обидиться </h2>
+		<h2 style="color: white;"> Либо же набрать 1000$ для своего Дяди Стэна, но это будет сложнее! </h2>
+		<h2 style="color: white;"> Впереди тебя ждут разные опасности и нежданчики, так что будь на готове! </h2>
+		<h2 style="color: white;"> Желаю тебе удачи !!! </h2>
+		<button type="button" name="button" class="btn btn-primary btn2"> Старт!</button>
+	</div>
+	<div class="content" style="transition: 2s; opacity: 0;">
+		<div class="music-box">
+			<audio src="bg-music.mp3" controls autoplay loop preload="auto"></audio>
+		</div>
+
+		<h4 style="margin-left: 20px; color: white;">Денежки: <span class="score"></span>$</h4>
+		<h4 style="margin-left: 20px; color: white;">Сладости: <span class="candy"></span></h4>
+		<img src="dice.png" class="bt" style="width: 100px; margin-left: 20px">
+		<div class="boxs firsBox" style="margin-left: 20px">
+			<h4>You</h4>
+		</div>
+		<div class="boxs money" style="margin-left: 130px;">1</div>
+		<div class="boxs mabel" style="margin-left: 240px;">2</div>
+		<div class="boxs pig" style="margin-left: 350px;">3</div>
+
+		<div class="boxs candyOne text-primary" style="margin-left: 460px;">4</div>
+		<div class="boxs land3" style="margin-left: 570px">5</div>
+		<div class="boxs land3" style="margin-left: 680px;">6</div>
+		<div class="boxs money" style="margin-left: 790px;">7</div>
+
+		<div class="boxs land5" style="margin-left: 900px;">8</div>
+		<div class="boxs robbie" style="margin-left: 1010px" >9</div>
+		<div class="boxs land5" style="margin-left: 1120px">10</div>
+		<div class="boxs land5" style="margin-left: 1230px">11</div>
+
+		<div class="boxs soos bg-white" style="margin-left: 1340px;">12</div>
+		<div class="boxs land5" style="margin-left: 1450px">13</div>
+		<div class="boxs police" style="margin-left: 1560px">14</div>
+		<div class="boxs candyTwo text-primary" style="margin-left: 1670px;">15</div>
+		<div class="boxs land1" style="margin-left: 1780px">16</div>
+		<div class="boxs land1" style="margin-left: 1780px; margin-top: 110px">17</div>
+		<div class="boxs agent2" style="margin-left: 1780px; margin-top: 220px">18</div>
+		<div class="boxs land1" style="margin-left: 1670px; margin-top: 220px;">19</div>
+		<div class="boxs money" style="margin-left: 1560px; margin-top: 220px;">20</div>
+		<div class="boxs money" style="margin-left: 1450px; margin-top: 220px;">21</div>
+		<div class="boxs stanley" style="margin-left: 1340px; margin-top: 220px;">22</div>
+		<div class="boxs money" style="margin-left: 1340px; margin-top: 330px;">23</div>
+		<div class="boxs money" style="margin-left: 1340px; margin-top: 440px;">24</div>
+
+		<div class="boxs land5" style="margin-left: 1340px; margin-top: 550px">25</div>
+		<div class="boxs land3" style="margin-left: 1230px; margin-top: 550px;">26</div>
+		<div class="boxs candyThree text-primary" style="margin-left: 1120px; margin-top: 550px;">27</div>
+		<div class="boxs gideon" style="margin-left: 1010px; margin-top: 550px">28</div>
+
+		<div class="boxs land3" style="margin-left: 900px; margin-top: 550px">29</div>
+		<div class="boxs money" style="margin-left: 790px; margin-top: 550px;">30</div>
+		<div class="boxs stanford" style="margin-left: 680px; margin-top: 550px; color: white;">31</div>
+		<div class="boxs land3" style="margin-left: 570px; margin-top: 550px;">32</div>
+
+		<div class="boxs lildip" style="margin-left: 460px; margin-top: 550px">33</div>
+		<div class="boxs land3" style="margin-left: 350px; margin-top: 550px">34</div>
+		<div class="boxs money" style="margin-left: 240px; margin-top: 550px;">35</div>
+		<div class="boxs candyFour text-primary" style="margin-left: 130px; margin-top: 550px;">36</div>
+
+		<div class="boxs agent1" style="margin-left: 20px; margin-top: 550px;">37</div>
+		<div class="boxs land1" style="margin-left: 20px; margin-top: 440px;">38</div>
+		<div class="boxs land1" style="margin-left: 20px; margin-top: 330px">39</div>
+		<div class="boxs bill" style="margin-left: 20px; margin-top: 220px; color: white;">40</div>
+		<div class="boxs wendy" style="margin-left: 20px; margin-top: 110px;">41</div>
+
+		<!--последние дивы-->
+		<div class="boxs" style="margin-left: 130px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+		<div class="boxs" style="margin-left: 240px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+		<div class="boxs" style="margin-left: 350px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+		<div class="boxs" style="margin-left: 460px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+		<div class="boxs" style="margin-left: 570px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+		<div class="boxs" style="margin-left: 680px; margin-top: 110px; background-color: green; opacity: 0;"></div>
+	</div>
+	<script type="text/javascript">
+	let dipper = document.querySelector('.firsBox');
+		let button = document.querySelector('.bt');
+		let start = document.querySelector('.btn2');
+		let scores = document.querySelector('.score');
+		let candies = document.querySelector('.candy');
+		let boxs = document.querySelectorAll('.boxs');
+		let intro = document.querySelector('.intro');
+		let question1 = document.querySelector('.box1');
+		let question2 = document.querySelector('.box2');
+		let question3 = document.querySelector('.box3');
+		let answer1 = document.querySelector('.answer1');
+		let answer2 = document.querySelector('.answer2');
+		let answer3 = document.querySelector('.answer3');
+		let answer4 = document.querySelector('.answer4');
+		let answer5 = document.querySelector('.answer5');
+		let answer6 = document.querySelector('.answer6');
+		let answer7 = document.querySelector('.answer7');
+		let score = 150;
+		let candy = 0;
+		candies.innerHTML = candy;
+		scores.innerHTML = score;
+		let step = 0;
+		let word1 = 'У тебя выпало ';
+		let word2 = ' иди на клетку ';
+		let content = document.querySelector('.content');
+
+		let scoreCheck = function(arg) {
+			score = score + arg;
+			scores.innerHTML = score;
+		}
+		let scoreCheck2 = function(arg2) {
+			candy = candy + arg2;
+			candies.innerHTML = candy;
+		}
+		start.onclick = function() {
+			intro.style.opacity = 0;
+			content.style.opacity = 1;
+		}
+
+		button.onclick = function() {
+			boxs[step].style.backgroundImage = 'none';
+			let randNum = Math.random() * 6;
+			let roundNum = Math.round(randNum);
+			step = step + roundNum;
+			alert(word1 + roundNum + word2 + step);
+			boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+			boxs[step].style.backgroundSize = '100% 100%';
+
+
+			if (roundNum == 0) {
+				scoreCheck(40);
+				alert('Тебе выпало целых ничего! Не обижайся, вот держи 40 долларов)');
+			}
+
+			if (step == 2) {
+				question1.style.opacity = 1;
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 12) {
+				question2.style.opacity = 1;
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 22) {
+				question3.style.opacity = 1;
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			answer2.onclick = function () {
+				alert('Мейбл:"Спасибо Дип, лови шоколадку)"');
+				scoreCheck2(1);
+				question1.style.opacity = 0;
+			}
+
+			answer1.onclick = function () {
+				alert('Мейбл: "Неет, я выйграла Пухлю на ярмарке. Я тебя проверяялаа! Тогда шоколадку ты не получишь!"');
+				question1.style.opacity = 0;
+			}
+
+			answer3.onclick = function () {
+				alert('Зус: "А точно, спасибо. Не знаю зачем я хотел узнать это. Чувак, у меня есть лишние 200$, забирай!"');
+				scoreCheck(200);
+				question2.style.opacity = 0;
+			}
+
+			answer4.onclick = function () {
+				alert('Зус: "Ок. Не знаю зачем я хотел узнать это. Чувак, у меня есть лишние 50$, забирай!"');
+				scoreCheck(50);
+				question2.style.opacity = 0;
+			}
+
+			answer5.onclick = function () {
+				alert('Вообще не попал, денег и конфеты не дам!');
+				question3.style.opacity = 0;
+			}
+
+			answer6.onclick = function () {
+				alert('В самую точку! Блин а ведь реально это был чёртов птеродактиль...жесть...Ты заслужил награду! + сладость и 300$');
+				scoreCheck(300);
+				scoreCheck2(1);
+				question3.style.opacity = 0;
+			}
+
+			answer7.onclick = function () {
+				alert('Вообще не попал, денег и конфеты не дам!');
+				question3.style.opacity = 0;
+			}
+
+
+			if (step == 3) {
+				alert('Пухля говорит: "Хрю,хрю. ХРЮЮЮЮ???"');
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 28) {
+				if (confirm('О господи нет, ты снова видишь перед собой этого надоедливого Гидеона. Он говорит, что хочет извиниться за всё! Простишь его?')) {
+					alert('О НЕТ, пока вы примирительно обнимались он стырил твои 500 долларов! Вот жеш мелкий засранец...');
+					scoreCheck(-500);
+					boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+					boxs[step].style.backgroundSize = '100% 100%';
+				}
+				else {
+					alert('Он озлобился еще сильней и сказал, что это еще не конец!!');
+					boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+					boxs[step].style.backgroundSize = '100% 100%';
+				}
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 31) {
+				alert('Стэнфорд: Эй Диппер, оказывается я не люблю зефирки, забери-ка их себе!');
+				scoreCheck2(1);
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 33) {
+				alert('Диппер вспомнил свой костюм барашка и тот случай в маркете. "Ухх, лучше бы я не вспоминал этого" - говорит Дип');
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 9 || step == 14 || step == 18 || step == 37) {
+				alert('У тебя отобрали 100 бачей!!');
+				scoreCheck(-100);
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 1 || step == 7 || step == 20 || step == 21 || step == 23 || step == 24 || step == 30 || step == 35) {
+				alert('Поздравляю, ты нашел 100 долларов!!!');
+				step = step;
+				scoreCheck(100);
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 4 || step == 15 || step == 27 || step == 36) {
+				alert('Поздравляю, ты нашел 1 из сладостей, Венди будет очень рада!');
+				step = step;
+				scoreCheck2(1);
+				boxs[step].style.backgroundImage = 'url(dipper.jpg)';
+				boxs[step].style.backgroundSize = '100% 100%';
+			}
+
+			if (step == 40) {
+				alert('У Билла другие планы на тебя! Поражение!');
+				content.style.opacity = 0 ;
+			}
+
+			if (step >= 41) {
+				if (candy >= 4) {
+					alert('Ты добрался до Венди и она оценила твои сладости! Победа!');
+					content.style.opacity = 0 ;
+				}
+				else {
+					content.style.opacity = 0 ;
+					alert('Ты зачем вообще пришёл к девушке без вкусняшек?! Поражение!');
+				}
+			}
+
+			if (score > 1000) {
+				if (confirm('Дядя Стэн увидев твои сбережения, сказалл что вы едете в казино! Поедешь?')) {
+					alert('Венди сказала, что поедет вместе с вами! Победа!');
+					content.style.opacity = 0 ;
+				}
+				else {
+					alert('"Хорошо малой, в другой раз" - сказал Дядя Стэн и пошёл по своим делам.');
+				}
+			}
+		}
+	</script>
+</body>
+</html>
